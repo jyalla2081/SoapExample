@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<getCourseDetailsResponse
+	xmlns="https://johnpranoy7/courses"
+	xsi:schemaLocation="https://johnpranoy7/courses CoursesSchema.xsd"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<courseDetails>
+		<id>1</id>
+		<name>Soap</name>
+		<desc>Soap Tutorial</desc>
+	</courseDetails>
+</getCourseDetailsResponse>

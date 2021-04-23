@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+	targetNamespace="https://johnpranoy7/courses"
+	xmlns:tns="https://johnpranoy7/courses" elementFormDefault="qualified">
+	<element name="getCourseDetailsRequest">
+		<complexType>
+			<sequence>
+				<element name="id" type="integer"></element>
+			</sequence>
+		</complexType>
+	</element>
+
+	<element name="getCourseDetailsResponse">
+		<complexType>
+			<sequence>
+				<element name="courseDetails" type="tns:CourseDetails"></element>
+			</sequence>
+		</complexType>
+	</element>
+
+	<complexType name="CourseDetails">
+		<sequence>
+			<element name="id" type="integer" />
+			<element name="name" type="string" />
+			<element name="desc" type="string" />
+		</sequence>
+	</complexType>
+
+
+</schema>
